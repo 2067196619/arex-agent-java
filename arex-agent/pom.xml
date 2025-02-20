@@ -12,6 +12,12 @@
     <artifactId>arex-agent</artifactId>
     <packaging>jar</packaging>
 
+    <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.11.0</version>
+    </dependency>
+    
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
